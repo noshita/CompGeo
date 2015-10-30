@@ -28,8 +28,8 @@ typedef CGAL::Surface_mesh_complex_2_in_triangulation_3<STr> C2t3;
 typedef CGAL::Implicit_surface_3<Kernel, Poisson_reconstruction_function> Surface_3;
 
 //デフォルト値 
-const std::string DEFAULTINPUT = "/Users/noshita/working_dir/CompGeo/SurfaceReconstructionFromPointSets/data/kitten.xyz";
-const std::string DEFAULTOUTPUT = "/Users/noshita/working_dir/CompGeo/SurfaceReconstructionFromPointSets/data/kitten_poisson-20-30-0.375.off";
+const std::string DEFAULTINPUT = "./data/kitten.xyz";
+const std::string DEFAULTOUTPUT = "./data/kitten_poisson-20-30-0.375.off";
 
 std::string inputPath;
 std::string outputPath;
