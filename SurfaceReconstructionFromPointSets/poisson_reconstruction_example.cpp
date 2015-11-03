@@ -54,9 +54,9 @@ int main( int argc, char *argv[] )
         printf("Error: argc (excluding file name) must be less than 3.");
     }
     // Poisson options
-    FT sm_angle = 20.0; // Min triangle angle in degrees.
-    FT sm_radius = 30; // Max triangle size w.r.t. point set average spacing.
-    FT sm_distance = 0.375; // Surface Approximation error w.r.t. point set average spacing.
+    FT sm_angle = 10.0; // Min triangle angle in degrees.
+    FT sm_radius = 3.5; // Max triangle size w.r.t. point set average spacing.
+    FT sm_distance = 0.01; // Surface Approximation error w.r.t. point set average spacing.
     // Reads the point set file in points[].
     // Note: read_xyz_points_and_normals() requires an iterator over points
     // + property maps to access each point's position and normal.
